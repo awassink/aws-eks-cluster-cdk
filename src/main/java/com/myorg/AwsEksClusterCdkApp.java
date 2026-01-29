@@ -26,12 +26,10 @@ public class AwsEksClusterCdkApp {
 
                 // Uncomment the next block if you know exactly what Account and Region you
                 // want to deploy the stack to.
-                /*
                 .env(Environment.builder()
-                        .account("123456789012")
+                        .account("607241929434")
                         .region("us-east-1")
                         .build())
-                */
 
                 // For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
                 .build());
