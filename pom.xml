@@ -45,6 +45,12 @@
         </dependency>
 
         <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>cdk-lambda-layer-kubectl-v32</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+        <dependency>
             <groupId>software.constructs</groupId>
             <artifactId>constructs</artifactId>
             <version>${constructs.version}</version>
