@@ -23,8 +23,7 @@ public class AwsEksClusterCdkStack extends Stack {
 
         // The code that defines your stack goes here
 
-        Role clusterAdmin =
-                Role.Builder.create(this, "cluster-admin").assumedBy(new AccountRootPrincipal()).build();
+        // Account Admin Role to grant EKS access
         IRole accountAdmin = Role.fromRoleArn(this, "account-admin", "arn:aws:iam::607241929434:role/OrganizationAccountAccessRole");
 
         // Define EKS Cluster with ManagedNodeGroup
